@@ -19,7 +19,8 @@ header {
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   position: fixed;
-  width: 100%
+  width: 100%;
+  background-color: black;
 }
 
 nav span {
@@ -55,6 +56,24 @@ a {
 
 .banner {
   width: 100%;
-  height: 125px;
+  height: auto;
   background-color: black;
+}
+
+.featured-tea {
+  margin-top: 100px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h2, h4 {
+  margin: 10px 0;
 }
