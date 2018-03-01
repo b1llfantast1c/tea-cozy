@@ -70,7 +70,11 @@ a {
 .teas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.tea {
+  margin: 10px 15px;
 }
 
 h2, h4 {
@@ -90,7 +94,7 @@ h2, h4 {
 .location {
   width: 300px;
   height: auto;
-  margin: 15px 40px;
+  margin: 15px 20px;
   background-color: black;
   opacity: 1;
 }
@@ -102,6 +106,7 @@ h2, h4 {
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .row h2 {
