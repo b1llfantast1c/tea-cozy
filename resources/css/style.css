@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 div {
@@ -20,6 +21,8 @@ header {
   position: fixed;
   width: 100%;
   background-color: black;
+  z-index: 1;
+  top: 0;
 }
 
 nav span {
@@ -112,4 +115,18 @@ h2, h4 {
 .row h2 {
   margin-top: 100px;
   font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  height: 200px;
+}
+
+.title h5 {
+  margin-top: 35px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
