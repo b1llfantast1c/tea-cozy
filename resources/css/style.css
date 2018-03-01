@@ -8,7 +8,6 @@ body {
 }
 
 div {
-  border: 1px solid white;
   display: block;
 }
 
@@ -76,4 +75,36 @@ a {
 
 h2, h4 {
   margin: 10px 0;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px;
+  align-items: center;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+}
+
+.location {
+  width: 300px;
+  height: auto;
+  margin: 15px 40px;
+  background-color: black;
+  opacity: 1;
+}
+
+.location p {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row h2 {
+  margin-top: 100px;
+  font-weight: bold;
 }
